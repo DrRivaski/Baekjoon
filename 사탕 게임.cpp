@@ -5,7 +5,7 @@ int checkBoard(char **board, int n)
 {
 	int count = 0;
 	int tempCount;
-	for (int i = 0; i < n; i++)		//¼¼·Î Ã¼Å©
+	for (int i = 0; i < n; i++)		//ì„¸ë¡œ ì²´í¬
 	{
 		char first;
 		int j = 0;
@@ -25,7 +25,7 @@ int checkBoard(char **board, int n)
 			j++;
 		}
 	}
-	for (int i = 0; i < n; i++)		//°¡·Î Ã¼Å©
+	for (int i = 0; i < n; i++)		//ì„¸ë¡œ 
 	{
 		char first;
 		int j = 0;
