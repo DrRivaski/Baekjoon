@@ -25,7 +25,7 @@ int checkBoard(char **board, int n)
 			j++;
 		}
 	}
-	for (int i = 0; i < n; i++)		//세로 
+	for (int i = 0; i < n; i++)		//가로 
 	{
 		char first;
 		int j = 0;
